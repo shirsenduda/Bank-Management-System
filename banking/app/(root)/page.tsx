@@ -5,6 +5,9 @@ import RightSidebar from '@/components/RightSidebar'
 import { getLoggedInUser } from '@/lib/actions/user.actions'
 const Home= async ()=>{
   const LogIn = await getLoggedInUser();
+
+  
+
   return (
     <>
       <section  className="home">

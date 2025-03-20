@@ -13,12 +13,12 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
         <div className="bank-card_content">
           <div>
             <h1 className="text-16 font-semibold text-white">
-              {/* {account.name || userName} */}
-              Jenny Roy
+              {account.name || userName}
+              {/* Jenny Roy */}
             </h1>
             <p className="font-ibm-plex-serif font-black text-white">
-              {/* {formatAmount(account.currentBalance)} */}
-              2,000.00
+              {formatAmount(account.currentBalance)}
+              {/* 2,000.00 */}
             </p>
           </div>
 
@@ -26,7 +26,7 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
             <div className="flex justify-between">
               <h1 className="text-12 font-semibold text-white">
                 {/* {userName} */}
-              jenny Roy
+              {/* jenny Roy */}
 
               </h1>
               <h2 className="text-12 font-semibold text-white">
@@ -35,7 +35,7 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
             </div>
             <p className="text-14 font-semibold tracking-[1.1px] text-white">
               ●●●● ●●●● ●●●● <span className="text-16">1234</span>
-              {/* ●●●● ●●●● ●●●● <span className="text-16">{account?.mask}</span> */}
+              ●●●● ●●●● ●●●● <span className="text-16">{account?.mask}</span>
             </p>
           </article>
         </div>
