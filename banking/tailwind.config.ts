@@ -68,6 +68,8 @@ const config = {
           700: "#344054",
           900: "#101828",
         },
+        'custom-dark': '#30313A',
+        'custom-darktw': '#1A1F37',
       },
       backgroundImage: {
         "bank-gradient": "linear-gradient(90deg, #0179FE 0%, #4893FF 100%)",
